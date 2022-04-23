@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: whitesmoke;
+  /* border: white 1px dotted; */
+}
+
+:root{
+  --bg:rgba(19, 16, 14, 0.74);
+  --font-color: whitesmoke;
+  --hover:  rgb(170, 170, 170);
+}
+
+body{
+  background: url('https://getwallpapers.com/wallpaper/full/c/4/7/489350.jpg') no-repeat fixed center; 
+}
+
+.main{
+  width: 80%;
+  margin: 7rem auto 0;
+}
+
+h1, h2, h3, h4 {
+  /* color:rgb(83, 26, 136); */
+  color: whitesmoke;
+  /* text-shadow: .2rem .2rem 10px rgba(128, 128, 128, 0.74); */
+}

@@ -1,0 +1,13 @@
+#contact-main{
+  width: 80%;
+  margin: 10% auto 10%;
+  min-height: 70vh;
+  background-color: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-h1-email{
+  font-size: 3rem;
+}
