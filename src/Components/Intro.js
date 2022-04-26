@@ -8,7 +8,7 @@ const skillArray = [
   },
   {
     title: "Libraries/Frameworks",
-    items: "React, Redux, Express, Mongoose, Laravel"
+    items: "React, Node, Express, Mongoose, Laravel"
   },
   {
     title: "Databases",
@@ -16,7 +16,7 @@ const skillArray = [
   },
   {
     title: "Other Technologies",
-    items: "Node.js, Pug, EJS, CSS, HTML, Git"
+    items: "HTML, CSS, Git, Pug, EJS, Blade"
   }
 ]
 
