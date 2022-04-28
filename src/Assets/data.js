@@ -12,7 +12,7 @@ const projectsArray = [
         name: "Inventory Tracker",
         tech: "Node.js, Express, Mongoose, MongoDB, Pug",
         gitHubUrl: "https://github.com/Nicholas-Riegel/inventory_app_node_express_pug",
-        viewAt: "https://radiant-citadel-62238.herokuapp.com/",
+        viewAt: "https://inventory-app0.herokuapp.com/",
         description: "This app is designed to keep track of products in inventory. User may choose names of products and categories the products are listed under. Any product or category can be created, read, updated and deleted (i.e. complete CRUD operations). App includes certain protections. Products in a category must be deleted before category can be deleted, and quantity of product must be zero before product can be deleted. As it is hosted on Heroku, app may take a few seconds to upload.",
         categories: ["Node.js", "Express", "Mongoose", "MongoDB", "Pug"],
         preview:'./pictures/inventory-tracker.png'
