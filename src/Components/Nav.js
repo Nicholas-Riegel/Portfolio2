@@ -11,7 +11,7 @@ const Nav = () => {
 
       <h1 id='nav-a-resume'>
         <a
-          href="https://drive.google.com/file/d/18J3CWpdl6LyHbmcyk26Z5qjSnMt5FKkm/view?usp=sharing" target="_blank"
+          href="https://drive.google.com/file/d/1jhb5lbLgGgJCifqu5ayn1K7_HpFs6L-9/view?usp=sharing" target="_blank"
           rel="noopener noreferrer"
         >
           Resume
