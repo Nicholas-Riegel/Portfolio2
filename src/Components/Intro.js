@@ -2,23 +2,23 @@ import self from '../Assets/selfie.jpg'
 import './Intro.css'
 
 const skillArray = [
-  {
-    title: "Languages",
-    items: "JavaScript, PHP, Python, SQL"
-  },
-  {
-    title: "Libraries/Frameworks",
-    items: "React, Node, Express, Mongoose, Laravel"
-  },
-  {
-    title: "Databases",
-    items: "MongoDB, mySQL, SQLite, MariaDB"
-  },
-  {
-    title: "Other Technologies",
-    items: "HTML, CSS, Git, Pug, EJS, Blade"
-  }
-]
+    {
+        title: 'Languages',
+        items: 'PHP, JavaScript, SQL, Python',
+    },
+    {
+        title: 'Libraries/Frameworks',
+        items: 'Laravel, React, Node, Express, Mongoose',
+    },
+    {
+        title: 'Databases',
+        items: 'mySQL, MariaDB, MongoDB',
+    },
+    {
+        title: 'Other Technologies',
+        items: 'HTML, CSS, Git, Pug, EJS, Blade',
+    },
+];
 
 const Intro = () => {
   return (
