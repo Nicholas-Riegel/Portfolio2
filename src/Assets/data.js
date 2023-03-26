@@ -62,7 +62,7 @@ const projectsArray = [
         categories: ["React"],
         preview: './pictures/memory-game.png',
     },
-
+``
 ]
 
 export default projectsArray

@@ -1,4 +1,4 @@
-import self from '../Assets/selfie.jpg'
+import selfie from '../Assets/selfie.jpg'
 import './Intro.css'
 
 const skillArray = [
@@ -25,7 +25,7 @@ const Intro = () => {
     <>
       <div id="intro">
         <div id="image-div">
-          <img src={self} alt="portrait" />
+          <img src={selfie} alt="portrait" />
         </div>
         <div id="intro-text-div">
           <h1>Nicholas P. Riegel</h1>
@@ -33,7 +33,8 @@ const Intro = () => {
           {skillArray.map((x, i) => (
             <div key={i}>
               <p><b>{x.title}:</b> <em>{x.items}</em></p>
-            </div>))}
+            </div>))
+          }
           <p><b>Github:</b><a href="https://github.com/Nicholas-Riegel" target="_blank" rel="noopener noreferrer"> https://github.com/Nicholas-Riegel</a></p> 
         </div>
       </div>
