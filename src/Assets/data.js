@@ -2,11 +2,11 @@ const projectsArray = [
     {
         name: "E-Commerce Shopping Cart",
         tech: "React, React-Router, Context API",
-        gitHubUrl: "https://github.com/Nicholas-Riegel/shopping_cart_react",
-        viewAt: "https://nicholas-riegel.github.io/shopping_cart_react/#/",
-        description: "App fetches product data from API. Each product includes an image, a description and a price. Clients can select a quantity to purchase. Products are added to the client's shopping cart and a total purchase price is calculated. Methods, technologies used: useState, useEffect, useContext, useLayoutEffect, HashRouter, .map, .filter, .reduce, .toFixed, ternary operators, etc. (API has in the past gone down temporarily. Please let me know if it is off-line.)",
+        gitHubUrl: "https://github.com/Nicholas-Riegel/shopping-cart-react2",
+        viewAt: "https://nicholas-riegel.github.io/shopping-cart-react2/#/",
+        description: "Each product includes an image, a description and a price. Clients can select a quantity to purchase. Products are added to the client's shopping cart and a total purchase price is calculated. Methods and technologies used include: useState, useEffect, useContext, useLayoutEffect, HashRouter, .map, .filter, .reduce, .toFixed, ternary operators, etc.",
         categories: ["React"],
-        preview:'./pictures/shopping-cart.png'
+        preview:'./pictures/shopping-cart2.png'
     },
     {
         name: "Inventory Tracker",

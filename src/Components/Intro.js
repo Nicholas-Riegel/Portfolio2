@@ -2,22 +2,22 @@ import selfie from '../Assets/selfie.jpg'
 import './Intro.css'
 
 const skillArray = [
-    {
-        title: 'Languages',
-        items: 'PHP, JavaScript, SQL, Python',
-    },
-    {
-        title: 'Libraries/Frameworks',
-        items: 'Laravel, React, Node, Express, Mongoose',
-    },
-    {
-        title: 'Databases',
-        items: 'mySQL, MariaDB, MongoDB',
-    },
-    {
-        title: 'Other Technologies',
-        items: 'HTML, CSS, Git, Pug, EJS, Blade',
-    },
+  {
+    title: 'Languages',
+    items: 'JavaScript, PHP, SQL, Python',
+  },
+  {
+    title: 'Libraries/Frameworks',
+    items: 'Laravel, React, Node, Express, Tailwind, Bootstrap',
+  },
+  {
+    title: 'Databases',
+    items: 'MySQL, MongoDB',
+  },
+  {
+    title: 'Other Technologies',
+    items: 'HTML, CSS, Git, Pug, EJS, Blade',
+  },
 ];
 
 const Intro = () => {
@@ -28,8 +28,8 @@ const Intro = () => {
           <img src={selfie} alt="portrait" />
         </div>
         <div id="intro-text-div">
-          <h1>Nicholas P. Riegel</h1>
-          <h2>Web Developer / Web Administrator / Software Developer</h2>
+          <h1>Nicholas P. Riegel, PhD</h1>
+          <h2>Full Stack Web Developer / Software Engineer</h2>
           {skillArray.map((x, i) => (
             <div key={i}>
               <p><b>{x.title}:</b> <em>{x.items}</em></p>
