@@ -8,7 +8,7 @@ const skillArray = [
   },
   {
     title: 'Libraries/Frameworks',
-    items: 'Laravel, React, Node, Express, Tailwind, Bootstrap',
+    items: 'React, Express, Node, Laravel, Tailwind, Bootstrap',
   },
   {
     title: 'Databases',
@@ -16,7 +16,7 @@ const skillArray = [
   },
   {
     title: 'Other Technologies',
-    items: 'HTML, CSS, Git, Pug, EJS, Blade',
+    items: 'HTML, CSS, Git, etc.',
   },
 ];
 
