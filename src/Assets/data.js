@@ -60,7 +60,7 @@ const projectsArray = [
         viewAt: "https://nicholas-riegel.github.io/memory_game_react/",
         description: "This little memory game uses the Egyptian gods to test your memory! Try to click on each god only once! After each click the cards are shuffled. There is a score-keeper, a high-score, and a reset button.",
         categories: ["React"],
-        preview: './pictures/memory-game.png',
+        preview: './pictures/memory-game.jpg',
     },
 ]
 
