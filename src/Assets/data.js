@@ -24,7 +24,7 @@ const projectsArray = [
         viewAt: "https://nicholas-riegel.github.io/project-manager/",
         description: "More complex (and useful!) than a simple To-Do App, this project manager allows users to group tasks into different projects. Each project as a name, description, due date and priority, along with the todos. App uses Local Storage to save user's inputs.",
         categories: ["JavaScript"],
-        preview:'./pictures/project-manager.png'
+        preview:'./pictures/project-manager2.png'
     },
     {
         name: "Quote Generator",
