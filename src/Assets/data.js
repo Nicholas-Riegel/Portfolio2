@@ -33,7 +33,7 @@ const projectsArray = [
         viewAt: "https://nicholas-riegel.github.io/random_quote_generator_react/",
         description: "This app fetches the quotes from an API, and puts them in State. useEffect is used initially to update the quotes array state and the random quote object state. A button click updates the random quote object state. A Twitter button automatically sends the quote to your Twitter account to be posted. (If it doesn't work, make sure your addblockers are off.) Technologies: React, useState, useEffect",
         categories: ["React"],
-        preview:'./pictures/quote-generator.png'
+        preview:'./pictures/quote-generator.jpg'
     },
     {
         name: "Drum Machine",
@@ -42,7 +42,7 @@ const projectsArray = [
         viewAt: "https://nicholas-riegel.github.io/drum_machine_react/",
         description: "This Drum Machine operates either by clicking on the buttons with the mouse or by pressing the keys on the keyboard! The corresponding drum sound plays and the name of the drum appears briefly in the output bar. Technologies: React, hooks, useState, useEffect",
         categories: ["React"],
-        preview: './pictures/drum-machine.png',
+        preview: './pictures/drum-machine.jpg',
     },
     {
         name: "Weather App",
@@ -51,7 +51,7 @@ const projectsArray = [
         viewAt: "https://nicholas-riegel.github.io/weatherApp/",
         description: "This weather app gets the current weather and temperature (in Farenheit and Celcius) for any major city in the world. Data is fetched from an API. Weather icon updates to match the weather.",
         categories: ["JavaScript, HTML, CSS"],
-        preview: './pictures/weather-app.png',
+        preview: './pictures/weather-app.jpg',
     },
     {
         name: "Memory Game",
