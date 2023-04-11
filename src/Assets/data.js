@@ -6,7 +6,7 @@ const projectsArray = [
         viewAt: "https://nicholas-riegel.github.io/shopping-cart-react2/#/",
         description: "Each product includes an image, a description and a price. Clients can select a quantity to purchase. Products are added to the client's shopping cart and a total purchase price is calculated. Methods and technologies used include: useState, useEffect, useContext, useLayoutEffect, HashRouter, .map, .filter, .reduce, .toFixed, ternary operators, etc.",
         categories: ["React"],
-        preview:'./pictures/shopping-cart2.png'
+        preview:'./pictures/shopping-cart.jpg'
     },
     {
         name: "Inventory Tracker",
