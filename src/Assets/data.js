@@ -9,22 +9,13 @@ const projectsArray = [
         preview:'./pictures/shopping-cart.jpg'
     },
     {
-        name: "Inventory Tracker",
-        tech: "Node.js, Express, Mongoose, MongoDB, Pug",
-        gitHubUrl: "https://github.com/Nicholas-Riegel/inventory_app_node_express_pug",
-        viewAt: "https://inventory-app0.herokuapp.com/",
-        description: "This app is designed to keep track of products in inventory. User may choose names of products and categories the products are listed under. Any product or category can be created, read, updated and deleted (i.e. complete CRUD operations). App includes certain protections. Products in a category must be deleted before category can be deleted, and quantity of product must be zero before product can be deleted. As it is hosted on Heroku, app may take a few seconds to upload.",
-        categories: ["Node.js", "Express", "Mongoose", "MongoDB", "Pug"],
-        preview:'./pictures/inventory-tracker.jpg'
-    },
-    {
-        name: "Project Manager",
-        tech: "Vanilla Javascript, HTML, CSS",
-        gitHubUrl: "https://github.com/Nicholas-Riegel/project-manager",
-        viewAt: "https://nicholas-riegel.github.io/project-manager/",
-        description: "More complex (and useful!) than a simple To-Do App, this project manager allows users to group tasks into different projects. Each project as a name, description, due date and priority, along with the todos. App uses Local Storage to save user's inputs.",
-        categories: ["JavaScript"],
-        preview:'./pictures/project-manager.jpg'
+        name: "Drum Machine",
+        tech: "React",
+        gitHubUrl: "https://github.com/Nicholas-Riegel/drum_machine_react",
+        viewAt: "https://nicholas-riegel.github.io/drum_machine_react/",
+        description: "This Drum Machine operates either by clicking on the buttons with the mouse or by pressing the keys on the keyboard! The corresponding drum sound plays and the name of the drum appears briefly in the output bar. Technologies: React, hooks, useState, useEffect",
+        categories: ["React"],
+        preview: './pictures/drum-machine.jpg',
     },
     {
         name: "Quote Generator",
@@ -36,13 +27,22 @@ const projectsArray = [
         preview:'./pictures/quote-generator.jpg'
     },
     {
-        name: "Drum Machine",
+        name: "Memory Game",
         tech: "React",
-        gitHubUrl: "https://github.com/Nicholas-Riegel/drum_machine_react",
-        viewAt: "https://nicholas-riegel.github.io/drum_machine_react/",
-        description: "This Drum Machine operates either by clicking on the buttons with the mouse or by pressing the keys on the keyboard! The corresponding drum sound plays and the name of the drum appears briefly in the output bar. Technologies: React, hooks, useState, useEffect",
+        gitHubUrl: "https://github.com/Nicholas-Riegel/memory_game_react",
+        viewAt: "https://nicholas-riegel.github.io/memory_game_react/",
+        description: "This little memory game uses the Egyptian gods to test your memory! Try to click on each god only once! After each click the cards are shuffled. There is a score-keeper, a high-score, and a reset button.",
         categories: ["React"],
-        preview: './pictures/drum-machine.jpg',
+        preview: './pictures/memory-game.jpg',
+    },
+    {
+        name: "Inventory Tracker",
+        tech: "Node.js, Express, Mongoose, MongoDB, Pug",
+        gitHubUrl: "https://github.com/Nicholas-Riegel/inventory_app_node_express_pug",
+        viewAt: "https://inventory-app0.herokuapp.com/",
+        description: "This app is designed to keep track of products in inventory. User may choose names of products and categories the products are listed under. Any product or category can be created, read, updated and deleted (i.e. complete CRUD operations). App includes certain protections. Products in a category must be deleted before category can be deleted, and quantity of product must be zero before product can be deleted. As it is hosted on Heroku, app may take a few seconds to upload.",
+        categories: ["Node.js", "Express", "Mongoose", "MongoDB", "Pug"],
+        preview:'./pictures/inventory-tracker.jpg'
     },
     {
         name: "Weather App",
@@ -54,13 +54,13 @@ const projectsArray = [
         preview: './pictures/weather-app.jpg',
     },
     {
-        name: "Memory Game",
-        tech: "React",
-        gitHubUrl: "https://github.com/Nicholas-Riegel/memory_game_react",
-        viewAt: "https://nicholas-riegel.github.io/memory_game_react/",
-        description: "This little memory game uses the Egyptian gods to test your memory! Try to click on each god only once! After each click the cards are shuffled. There is a score-keeper, a high-score, and a reset button.",
-        categories: ["React"],
-        preview: './pictures/memory-game.jpg',
+        name: "Project Manager",
+        tech: "Vanilla Javascript, HTML, CSS",
+        gitHubUrl: "https://github.com/Nicholas-Riegel/project-manager",
+        viewAt: "https://nicholas-riegel.github.io/project-manager/",
+        description: "More complex (and useful!) than a simple To-Do App, this project manager allows users to group tasks into different projects. Each project as a name, description, due date and priority, along with the todos. App uses Local Storage to save user's inputs.",
+        categories: ["JavaScript"],
+        preview:'./pictures/project-manager.jpg'
     },
 ]
 
