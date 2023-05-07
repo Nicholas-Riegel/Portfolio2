@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   color: whitesmoke;
-  /* border: white 1px dotted; */
 }
 
 :root{
@@ -25,7 +24,5 @@ body{
 }
 
 h1, h2, h3, h4 {
-  /* color:rgb(83, 26, 136); */
   color: whitesmoke;
-  /* text-shadow: .2rem .2rem 10px rgba(128, 128, 128, 0.74); */
 }
