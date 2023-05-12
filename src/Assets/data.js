@@ -36,11 +36,11 @@ const projectsArray = [
         preview:'./pictures/quote-generator.jpg'
     },
     {
-        name: "Learning Tool",
+        name: "Learning App",
         tech: "React",
         gitHubUrl: "https://github.com/Nicholas-Riegel/egyptian-deities",
         viewAt: "https://nicholas-riegel.github.io/egyptian-deities/",
-        description: "This tool could be used to learn many things. I have always wanted to learn more about Egyptian mythology. So this is a fun little project to help people learn some of the most important Ancient Egyptian deities!",
+        description: "This App could be used to learn many things. I have always wanted to learn more about Egyptian mythology. So this is a fun little project to help people learn some of the most important Ancient Egyptian deities!",
         categories: ["React"],
         preview: './pictures/egypt.jpg',
     },
