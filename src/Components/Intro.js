@@ -4,11 +4,11 @@ import './Intro.css'
 const skillArray = [
   {
     title: 'Languages',
-    items: 'JavaScript, PHP, SQL, Python',
+    items: 'JavaScript, PHP, Python',
   },
   {
     title: 'Libraries/Frameworks',
-    items: 'React, Express, Node, Laravel, Tailwind, Bootstrap',
+    items: 'React, Laravel, Tailwind, Bootstrap',
   },
   {
     title: 'Databases',
@@ -16,7 +16,7 @@ const skillArray = [
   },
   {
     title: 'Other Technologies',
-    items: 'HTML, CSS, Git, etc.',
+    items: 'HTML, CSS, SQL, Node, Git, and many others.',
   },
 ];
 
