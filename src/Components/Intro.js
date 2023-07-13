@@ -8,7 +8,7 @@ const skillArray = [
   },
   {
     title: 'Libraries/Frameworks',
-    items: 'React, Laravel, Tailwind, Bootstrap',
+    items: 'React, Laravel, Express, Tailwind, Bootstrap',
   },
   {
     title: 'Databases',
@@ -28,7 +28,7 @@ const Intro = () => {
           <img src={selfie} alt="portrait" />
         </div>
         <div id="intro-text-div">
-          <h1>Nicholas P. Riegel, PhD</h1>
+          <h1>Nicholas P. Riegel</h1>
           <h2>Full Stack Web Developer / Software Engineer</h2>
           {skillArray.map((x, i) => (
             <div key={i}>
