@@ -17,6 +17,16 @@ const Nav = () => {
                   Resume
               </a>
           </h1>
+          
+          <h1 id="nav-a-resume">
+              <a
+                  href="https://github.com/Nicholas-Riegel  "
+                  target="_blank"
+                  rel="noopener noreferrer"
+              >
+                  GitHub
+              </a>
+          </h1>
 
           <Link to="/contact">
               <h1>Contact</h1>

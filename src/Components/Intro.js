@@ -1,25 +1,6 @@
 import selfie from '../Assets/selfie.jpg'
 import './Intro.css'
 
-const skillArray = [
-  {
-    title: 'Languages',
-    items: 'JavaScript, PHP, Python',
-  },
-  {
-    title: 'Libraries/Frameworks',
-    items: 'React, Laravel, Express, Tailwind, Bootstrap',
-  },
-  {
-    title: 'Databases',
-    items: 'MySQL, MongoDB',
-  },
-  {
-    title: 'Other Technologies',
-    items: 'HTML, CSS, SQL, Node, Git, and many others.',
-  },
-];
-
 const Intro = () => {
   return (
     <>
@@ -29,18 +10,13 @@ const Intro = () => {
         </div>
         <div id="intro-text-div">
           <h1>Nicholas P. Riegel</h1>
-          <h2>Full Stack Web Developer / Software Engineer</h2>
-          {skillArray.map((x, i) => (
-            <div key={i}>
-              <p><b>{x.title}:</b> <em>{x.items}</em></p>
-            </div>))
-          }
-          <p><b>Github:</b><a href="https://github.com/Nicholas-Riegel" target="_blank" rel="noopener noreferrer"> https://github.com/Nicholas-Riegel</a></p> 
+          <h2>Software Engineer / Full Stack Web Developer </h2>
+          <p>Welcome to my Portfolio page! As a former educator, specializing in Philosophy, I began teaching myself to code in early 2020 during the Covid pandemic, and absolutely fell in love with it. I feel many of the skills prized in my study of philosophy carry over and have helped me become a better programmer. Philosphy requires exact and rigorous analytical and logical thinking, much like coding, and it also involve thinking deeply and carefully about complex abstract issues, just like coding. In any event, I love coding and I hope that is reflected in the projects below.</p>
+
+          <p>Please feel free to click on the projects and view the source code on GitHub. Please also see the links above to my Resume and GitHub profile. Enjoy!</p>
         </div>
       </div>
-      <div id="projects-title-div">
-        <h2>Selected Portfolio Projects</h2>
-      </div>
+      
     </>
   )
 }

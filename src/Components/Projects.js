@@ -4,6 +4,9 @@ import './Projects.css'
 const Projects = () => {
   return ( 
     <div id="project-box">
+      <div id="projects-title-div">
+        <h2>Selected Portfolio Projects</h2>
+      </div>
       {projectsArray.map((x, i) => (
         <div key={i} className="project-div">
           <div className="project-description-div">
