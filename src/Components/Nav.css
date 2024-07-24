@@ -3,7 +3,6 @@ nav{
     display: flex;
     align-items: center;
     width: 100%;
-    /* background-color: rgb(199, 199, 199); */
     background-color: var(--bg);
     top: 0;
 }
@@ -25,10 +24,8 @@ nav a {
 
 #nav-a-resume{
     margin-left: auto;
-    /* color:rgb(83, 26, 136); */
 }
 
 #nav-a-resume a{
-    /* color:rgb(83, 26, 136); */
     color: var(--font-color);
 }

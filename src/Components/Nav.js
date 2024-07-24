@@ -18,7 +18,7 @@ const Nav = () => {
               </a>
           </h1>
           
-          <h1 id="nav-a-resume">
+          <h1>
               <a
                   href="https://github.com/Nicholas-Riegel  "
                   target="_blank"

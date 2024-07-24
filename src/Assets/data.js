@@ -1,15 +1,15 @@
 const projectsArray = [
     {
-        name: "PHP Blog",
-        tech: "PHP, CSS, Bootstrap, MySQL",
+        name: "PHP MySQL Blog",
+        tech: "PHP, MySQL, CSS, Bootstrap, Heroku",
         gitHubUrl: "https://github.com/Nicholas-Riegel/php_blog",
         viewAt: "https://php-sessions-oop.herokuapp.com/",
         description: "This exercise was to create a CRUD project in object oriented PHP with an MVC structure, a MySQL database, Bootstrap styling, sessions, authentication, and front and backend validation",
-        categories: ["PHP", "CSS", "Bootstrap", "MySQL"],
+        categories: ["PHP", "CSS", "Bootstrap", "MySQL", "Heroku"],
         preview:'./pictures/php_blog.jpg'
     },
     {
-        name: "E-Commerce Shopping Cart",
+        name: "React E-Commerce Shopping Cart",
         tech: "React, React-Router, Context API",
         gitHubUrl: "https://github.com/Nicholas-Riegel/shopping-cart-react2",
         viewAt: "https://nicholas-riegel.github.io/shopping-cart-react2/#/",
@@ -18,7 +18,25 @@ const projectsArray = [
         preview:'./pictures/shopping-cart.jpg'
     },
     {
-        name: "Drum Machine",
+        name: "C# React Todo App",
+        tech: "C#, .NET Core, PostgreSQL, React, AWS",
+        gitHubUrl: "https://github.com/Nicholas-Riegel/csharp-react-todo-app?tab=readme-ov-file",
+        viewAt: "http://3.14.5.204:3000/todos",
+        description: "This was a learning project to learn the basics of C# and .NET Core. As the final project at the General Assembly Software Engineer Bootcamp, we were given the challenge to learn a new technology and deploy a fully functional CRUD app on AWS in one week. I chose to create a Todo App with a C# and .NET Core backend and React frontend. Clearly this is a simple project, but I found the challenge more in learning C# and .NET Core.",
+        categories: ["React", "C#", ".NET Core", "PostgreSQL", "AWS"],
+        preview:'./pictures/todo-app.jpg'
+    },
+    {
+        name: "JavaScript Car Blog",
+        tech: "JavaScript, Express, Mongoose, EJS, MongoDB, Bcrypt, AWS",
+        gitHubUrl: "https://github.com/Nicholas-Riegel/car-blog?tab=readme-ov-file",
+        viewAt: "http://18.225.254.20:3002/cars",
+        description: "This project allows users to post pictures of their favorite cars and discuss them with others. Guests can view the cars and posts. Users must sign up and sign in to post new cars and create, update, and delete posts. Project employs Express server for routing and requests, Mongoose to interact with MongoDB database, bcrypt to encrypt passwords, ejs for templating. Project is hosted on AWS EC2.",
+        categories: ["JavaScript", "Express", "Mongoose", "EJS", "MongoDB", "AWS"],
+        preview:'./pictures/car-blog.jpg'
+    },
+    {
+        name: "React Drum Machine",
         tech: "React",
         gitHubUrl: "https://github.com/Nicholas-Riegel/drum_machine_react",
         viewAt: "https://nicholas-riegel.github.io/drum_machine_react/",
@@ -27,7 +45,7 @@ const projectsArray = [
         preview: './pictures/drum-machine.jpg',
     },
     {
-        name: "Quote Generator",
+        name: "React Quote Generator",
         tech: "React",
         gitHubUrl: "https://github.com/Nicholas-Riegel/random_quote_generator_react",
         viewAt: "https://nicholas-riegel.github.io/random_quote_generator_react/",
@@ -36,7 +54,7 @@ const projectsArray = [
         preview:'./pictures/quote-generator.jpg'
     },
     {
-        name: "Learning App",
+        name: "React Learning App",
         tech: "React",
         gitHubUrl: "https://github.com/Nicholas-Riegel/egyptian-deities",
         viewAt: "https://nicholas-riegel.github.io/egyptian-deities/",
@@ -45,7 +63,7 @@ const projectsArray = [
         preview: './pictures/egypt.jpg',
     },
     {
-        name: "Weather App",
+        name: "API Weather App",
         tech: "JavaScript, HTML, CSS",
         gitHubUrl: "https://github.com/Nicholas-Riegel/weatherApp",
         viewAt: "https://nicholas-riegel.github.io/weatherApp/",

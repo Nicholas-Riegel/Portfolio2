@@ -71,3 +71,11 @@
 .project-buttons-div a:hover{
     background-color: var(--hover);
 }
+
+#projects-title-div{
+    background-color: var(--bg);
+    margin-top: 2rem;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+  }

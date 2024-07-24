@@ -1,0 +1,14 @@
+#techs-div{
+  background-color: var(--bg);
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+#techs-div p{
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+#techs-div b{
+  font-size: 1.75rem;
+}
