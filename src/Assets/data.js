@@ -30,7 +30,7 @@ const projectsArray = [
         name: "JavaScript Car Blog",
         tech: "JavaScript, Express, Mongoose, EJS, MongoDB, Bcrypt, AWS",
         gitHubUrl: "https://github.com/Nicholas-Riegel/car-blog?tab=readme-ov-file",
-        viewAt: "http://18.225.254.20:3002/cars",
+        viewAt: "http://147.93.118.154:3002/cars",
         description: "This project allows users to post pictures of their favorite cars and discuss them with others. Guests can view the cars and posts. Users must sign up and sign in to post new cars and create, update, and delete posts. Project employs Express server for routing and requests, Mongoose to interact with MongoDB database, bcrypt to encrypt passwords, ejs for templating. Project is hosted on AWS EC2.",
         categories: ["JavaScript", "Express", "Mongoose", "EJS", "MongoDB", "AWS"],
         preview:'./pictures/car-blog.jpg'
