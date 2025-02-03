@@ -10,7 +10,7 @@ const Nav = () => {
 
           <h1 id="nav-a-resume">
               <a
-                  href="https://drive.google.com/file/d/1DdRUnskWRTouXciWdT-fRsbBgpRMVG0Y/view?usp=sharing"
+                  href="https://docs.google.com/document/d/1-uGHbeDVb-iRwkzptZs_3j5Jw9URsztBp3KMMe48YyA/edit?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
               >
