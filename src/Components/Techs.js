@@ -3,11 +3,11 @@ import './Techs.css'
 const skillArray = [
     {
       title: 'Languages',
-      items: 'JavaScript, TypeScript, PHP, Python, C#, SQL, HTML, CSS',
+      items: 'Java, Python TypeScript/JavaScript, SQL, C#, C/C++, PHP',
     },
     {
       title: 'Libraries/Frameworks',
-      items: 'React, Laravel, .NET Core, Express, Mongoose, Django, jQuery, Tailwind, Bootstrap, Mocha, Jest',
+      items: 'React, Redux Toolkit (RTK), Express, Mongoose, Django, .NET Core, Laravel, jQuery, Tailwind, Mocha, Jest',
     },
     {
       title: 'Databases',
@@ -15,7 +15,7 @@ const skillArray = [
     },
     {
       title: 'Other Technologies',
-      items: 'Git, GitHub, AWS, Heroku, Wordpress, Postman, JSON, SPAs, REST APIs, SSR',
+      items: 'Git, GitHub, AWS, HTML, CSS, JSON, SPAs, REST APIs, SSR',
     },
 ];
   
