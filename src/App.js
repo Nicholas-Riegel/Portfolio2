@@ -9,7 +9,7 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>    
       <ParticlesBackground id="particles"/>
-      <Nav/>
+      {/* <Nav/> */}
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route path='/contact' element={<Contact />} />

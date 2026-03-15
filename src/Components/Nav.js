@@ -8,7 +8,7 @@ const Nav = () => {
               <h1>Home</h1>
           </Link>
 
-          <h1 id="nav-a-resume">
+          {/* <h1 id="nav-a-resume">
               <a
                   href="https://docs.google.com/document/d/1NveKZc3DB3roYtZUT2UWUKW7JfTXz191lG84FiXeLC0/edit?usp=sharing"
                   target="_blank"
@@ -16,7 +16,7 @@ const Nav = () => {
               >
                   Resume
               </a>
-          </h1>
+          </h1> */}
           
           <h1>
               <a

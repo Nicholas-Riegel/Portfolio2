@@ -3,7 +3,7 @@ import './Techs.css'
 const skillArray = [
     {
       title: 'Languages',
-      items: 'Java, Python TypeScript/JavaScript, SQL, C#, C/C++, PHP',
+      items: 'Python TypeScript/JavaScript, Java, C#, SQL',
     },
     {
       title: 'Libraries/Frameworks',
